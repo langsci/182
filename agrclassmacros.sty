@@ -1,0 +1,155 @@
+%%%% Glosses
+% left-aligned gloss
+\def \gloss #1#2{\leavevmode
+        \vtop {%\baselineskip=3ex
+               \hbox {#1}
+               \hbox {\deepstrut #2}}}
+% centered gloss
+\def \cgloss #1#2{\mbox{\def\arraystretch{1}%
+        \begin{tabular}[t]{@{}c@{}}{\strut \it #1}\\{\deepstrut #2}\end{tabular}}}
+% Tracy alternative for glosses
+\def \st{\shortex}
+
+%%%% F-structure macros
+\def\fd#1{\setlength{\baselineskip}{0pt}
+     \hbox{#1}}
+\def\fdx#1{\setlength{\baselineskip}{0pt}\vcenter{#1}}
+\def\fdand#1{\(\left[\fdx{#1}\right]\)}
+\def\fdset#1{\(\left\{\hbox{#1}\right\}\)}
+\def\fdstack#1#2{\(\vcenter{\hbox{#1}{\vskip 2ex}\hbox{#2}}\)}
+\def\feat#1#2{\vskip .4ex\hbox{\hspace{.2em}#1\hspace{1em}#2\hspace{.2em}}\vskip .8ex}
+
+\def \deepstrut {\hbox {\vrule height 2ex depth 1.2ex width 0pt}}
+\def \strut {\hbox {\vrule height 2ex depth .8ex width 0pt}}
+
+%%%% Lexical entries
+\newdimen\lexentrydimen
+\newdimen\catdimen
+\newdimen\mothernodedimen
+% word and f-description
+\def \lexentry #1#2{\setbox1\hbox{\it #1}%
+                      \ifdim \wd1 >3em \lexentrydimen=\wd1 %
+                      \else \lexentrydimen=3em \fi%
+                      \noindent%
+                      \makebox[\lexentrydimen][l]{\box1}\hspace*{1em}\nobreak%
+                      \feqs{#2}}
+% word, phrase structure category, f-description
+\def \catlexentry #1#2#3{\setbox1\hbox{\it #1}%
+                      \ifdim \wd1 >3em \lexentrydimen=\wd1 %
+                      \else \lexentrydimen=3em \fi%
+                      \noindent%
+                      \makebox[\lexentrydimen][l]{\box1}\hspace*{1em}\nobreak%
+                      \setbox2\hbox{\small #2}%
+                      \ifdim \wd2 >1em \catdimen=\wd2 %
+                      \else \catdimen=1em \fi%
+                      \noindent%
+                      \makebox[\catdimen][l]{\box2}\hspace*{1em}\nobreak%
+                      \feqs{#3}}
+\def \feqs #1{\begin{tabular}[t]{@{\strut}l@{\strut}}#1\end{tabular}}
+
+%%%% Annotated phrase structure rules
+\def \phraserule #1#2{\setbox1\hbox{#1}%
+                      \ifdim \wd1 >2em \mothernodedimen=\wd1 %
+                      \else \mothernodedimen=2em \fi%
+   \leavevmode\hbox{\makebox[\mothernodedimen][l]{\box1}{$\longrightarrow$}\hspace{.6em}#2}}
+\def \rulenode #1{\begin{tabular}[t]{c}#1\end{tabular}}
+\def \optrulenode#1{
+  \setbox1\hbox{$\left(\hbox{\begin{tabular}{@{\strut}c@{\strut}}#1\end{tabular}}\right)$}
+  \raisebox{1.9ex}{\raisebox{-\ht1}{\copy1}}}
+
+\def \treenode #1{\renewcommand{\arraystretch}{1}
+  \begin{tabular}{@{\strut}c@{\strut}}#1\end{tabular}}
+\def \opttreenode#1{
+  $\left(\hbox{\renewcommand{\arraystretch}{1}\begin{tabular}{@{\strut}c@{\strut}}#1\end{tabular}}\right)$}
+
+%%%% Special macro for coordination
+\def\coord#1#2#3#4#5#6#7#8#9{\framebox{\begin{tabular}[t]{@{}lll@{}}
+#1 & #4 & #7 \\
+#2 & #5 & #8 \\
+#3 & #6 & #9
+\end{tabular}}}
+
+%%%% LFG abbreviations
+\def \up {\hbox {$\uparrow$\kern .2em}}
+\def \down {\hbox {$\downarrow$\kern 0em}}
+
+\def \pred {\mbox{\sc pred}} 
+\def \arglist#1{\mbox{$\langle$#1$\rangle$}}
+
+\def \subj {\mbox{\sc subj}} 
+\def \obj {\mbox{\sc obj}}  
+\def \objtwo {\mbox{\sc obj2}}  
+\def \obl {\mbox{\sc obl}}  
+\def \comp {\mbox{\sc comp}} 
+\def \xcomp {\mbox{\sc xcomp}} 
+\def \adj {\mbox{\sc adj}}  
+\def \topic {\mbox{\sc topic}} 
+\def \focus {\mbox{\sc focus}} 
+\def \gf {\mbox{\sc gf}} 
+
+\def \arg {\mbox{\sc arg}} 
+\def \argone {\mbox{\sc arg1}} 
+\def \argtwo {\mbox{\sc arg2}} 
+\def \argthree {\mbox{\sc arg3}} 
+\def \argfour {\mbox{\sc arg4}} 
+
+\def \tense {\mbox{\sc tense}} 
+\def \past {\mbox{\sc past}}  
+\def \nonpast {\mbox{\sc nonpast}} 
+\def \pres {\mbox{\sc pres}}  
+
+\def \aspect {\mbox{\sc aspect}} 
+\def \perf {\mbox{\sc perf}} 
+
+\def\agrindex{\mbox{\sc index}}
+\def\concord{\mbox{\sc concord}}
+
+\def \num {\mbox{\sc num}}  
+\def \sg {\mbox{\sc sg}}  
+\def \dual {\mbox{\sc dual}}  
+\def \pl {\mbox{\sc pl}} 
+
+\def \gend {\mbox{\sc gend}} 
+\def \masc {\mbox{\sc masc}}   
+\def \fem {\mbox{\sc fem}}   
+\def \neut {\mbox{\sc neut}} 
+
+\def \case {\mbox{\sc case}} 
+\def \nom {\mbox{\sc nom}}  
+\def \acc {\mbox{\sc acc}}  
+\def \gen {\mbox{\sc gen}}  
+\def \dat {\mbox{\sc dat}}  
+\def \abs {\mbox{\sc abs}}  
+\def \erg {\mbox{\sc erg}}  
+\def \inst {\mbox{\sc inst}}  
+\def \loc {\mbox{\sc loc}} 
+
+\def \pers {\mbox{\sc pers}} 
+\def\First{\mbox{\sc 1st}}
+\def\FirstInc{\mbox{\sc 1Incl}}
+\def\FirstExc{\mbox{\sc 1Excl}}
+\def\Second{\mbox{\sc 2nd}}
+\def\Third{\mbox{\sc 3rd}}
+\def\FirstSg{\mbox{\sc 1Sg}}
+\def\FirstPl{\mbox{\sc 1Pl}}
+\def\FirstIncPl{\mbox{\sc 1IncPl}}
+\def\FirstExclPl{\mbox{\sc 1ExcPl}}
+\def\SecondSg{\mbox{\sc 2Sg}}
+\def\SecondPl{\mbox{\sc 2Pl}}
+\def\ThirdSg{\mbox{\sc 3Sg}}
+\def\ThirdPl{\mbox{\sc 3Pl}}
+
+\def \anim {\mbox{\sc anim}} 
+\def \cause {\mbox{\sc cause}}  
+\def \class {\mbox{\sc class}}
+\def \clitic {\mbox{\sc clitic}} 
+\def \cond {\mbox{\sc cond}} 
+\def \deixis {\mbox{\sc deixis}} 
+\def \indicative {\mbox{\sc indicative}}
+\def \nounclass {\mbox{\sc nounclass}}
+\def \pass {\mbox{\sc pass}}  
+\def \pcase {\mbox{\sc pcase}} 
+\def \pol {\mbox{\sc pol}} 
+\def \poss {\mbox{\sc poss}} 
+\def \refl {\mbox{\sc refl}} 
+\def \spec {\mbox{\sc spec}} 

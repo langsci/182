@@ -1,0 +1,37 @@
+Afroasiatic
+Arabic
+Bantu
+Berber
+Chinese
+Cushitic
+Danish
+Egyptian
+Estonian
+Etruscan
+French
+German
+Germanic
+Gozitan
+Greek
+Hebrew
+Igbo
+Iranian
+Italian
+Jordanian
+Korean
+Latin
+Maltese English 
+British English
+BrE
+MaltE
+Maltese Sign Language
+Moroccan
+Persian
+Punic
+Romance
+Russian
+Semitic
+Sicilian
+Spanish
+Tunisian
+Yoruba

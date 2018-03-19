@@ -1,0 +1,289 @@
+absolute neutralization
+accent
+advanced learner
+advanced learner output
+affix
+affixation
+affricate
+allomorphic
+allophone
+allophonic realization
+anaphoric
+anaphoric binding
+anaphoric control
+anaphoric dependency
+aspectualiser
+assimilation rule
+base form
+bilingual
+bilingual setting
+bimodal bilingual education
+borrowing
+boundary tone
+boundary tone sequence
+clausal argument
+clausal complement
+clause
+clitic
+coda
+coda consonant
+complement clause
+complementiser
+compounding
+consonant
+consonant cluster
+consonant onset
+contrastive
+copy pronoun
+copy raising
+corpus size
+counterfactual complementiser
+deaf
+Deaf
+deaf education
+definite article
+derivational
+dialect
+dialectal
+diphthong
+diphthongization
+diphthongize
+direct object
+direct transfer
+discourse status
+disyllabic
+durational variability
+emphatic
+emphatic consonant
+empty c-position
+empty nucleus
+empty position
+empty vertex
+epenthesis
+epenthetic glottal stop
+epenthetic vowel
+error analysis
+etymological
+expletive construction
+external argument
+falling pitch
+falling pitch accent
+first consonant
+first syllable
+focus movement
+fossilization
+fossilize
+fricative
+f-structure level
+geminate
+gestural
+gesture
+glide
+glide insertion
+glottal
+Gozo
+grammatical
+grammatical form
+guttural
+guttural sound
+hand gesture
+handshape
+hapax legomena
+headless
+headless melodic element
+high sonority
+high sonority distance
+idiolect
+idiom
+idiomatic
+idiomatic interpretation
+imperfect prefix
+impersonal verb
+indirect borrowing
+inflectional
+informant
+initial consonant
+initial syllable
+insertion rate
+interpreterglottal stop
+interpreting service
+intervocalic position
+intonational phrase
+intralingual
+language-learning situation
+laryngeal
+laryngeal node
+learner output
+left dislocation
+lexeme
+lexical entry
+LFG
+long nucleus
+long vowel
+low sonority
+low sonority distance
+Malta
+Maltese community
+Maltese society
+matrix clause
+matrix raising predicate
+matrix subj
+medial consonant
+medial position
+melodic element
+melodic fission
+minimum sonority
+minimum sonority distance
+MLRS
+monosyllabic
+monosyllable
+morpheme
+morphological inflection
+morphological prefix
+morphological process
+morphological productivity
+native language
+native speaker
+natural class
+natural speech
+negative transfer
+nominal feature
+nominalisation
+noun
+noun phrase
+npvi index
+nuclear pitch
+nuclear pitch accent
+numeral
+object suffix
+obstruent
+obstruent-initial consonant
+onset cluster
+onset consonant
+onset syllable
+orthographic
+overt dp
+parallel architecture
+permissible onset
+pharyngeal constriction
+pharyngealization
+pharyngealized vowel
+pharyngeal sonorant
+phoneme
+phonemic inventory
+phonemic status
+phonetic realisation
+phonetics
+phonological
+phonological interpretation
+phonological patterning
+phonological phrase
+phonological phrase boundary
+phonological string
+phonologization
+phonology
+phrase
+phrase accent
+phrase boundary
+phrase structure
+pitch accent
+plural
+plural noun
+polysyllabic
+poset relation
+postmodifying
+postmodifying prepositional phrase
+potential productivity
+predicate
+preposition
+prepositional phrase
+pronominal
+pronoun
+pronunciation
+prosodic annotation
+prosodic word
+prosody
+radical position
+raising
+raising analysis
+raising construction
+raising predicate
+referent
+school curriculum
+schwa
+secondary prominence
+sentence accent
+short vowel
+sibilant
+sibilant onset
+sign
+signer
+sign language
+signwritten form
+smacking
+sociolinguistic
+sonorant
+sonority
+sonority distance
+sonority plateau
+sonority scale
+sound pattern
+sound system
+space unit
+speaker
+spontaneous speech
+standard variety
+stem backness
+stem consonant
+stem vowel
+stress assignment
+subcategorisation frame
+subject
+subj-to-subj raising construction
+suffix
+syllabic structure
+syllabification
+syllabify
+syllable
+syllable nucleus
+syllable onset
+syllable structure
+syllable type
+syntactic
+syntactic representation
+target form
+target language
+tautosyllabic
+templatic
+token frequency
+tone sequence
+topicalisation
+unbounded discourse dependency
+ungrammaticality
+unstressed
+unstressed position
+uvular
+vacuous
+vacuous pronoun
+variability index
+velar
+verb
+virtual consonant
+virtual phoneme
+vocabulary explosion
+vocabulary growth
+vocalic element
+voiced
+voiceless fricative
+voicing assimilation
+voicing assimilation rule
+voicing harmony
+vowel
+vowel diphthongization
+vowel duration
+vowel-initial syllable
+vowel length
+vowel pharyngealization
+vowel reduction
+word-final position
+word order
